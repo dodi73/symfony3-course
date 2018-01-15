@@ -1,0 +1,17 @@
+{
+  "name": "web",
+  "description": "",
+  "main": "",
+  "authors": [
+    "dodidaddy@gmail.com"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
