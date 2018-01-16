@@ -10,7 +10,7 @@
     <title>Justified Nav Template for Bootstrap</title>
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <link href="{{ asset('bower_components/bootstrap/dist/css/bootstrap.min.css') }}" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="{{ asset('css/justified-nav.css') }}" rel="stylesheet">
@@ -25,6 +25,11 @@
         {% include 'default/nav.html.twig' %}
         {% block body %}{% endblock %}
         {% include 'default/footer.html.twig' %}
+
+        <script src="{{ asset('bower_components/jquery/dist/jquery.min.js') }}"></script>
+        <script src="{{ asset('js/popper.min.js') }}"></script>
+        <script src="{{ asset('bower_components/bootstrap/dist/js/bootstrap.min.js') }}"></script>
+
         {% block javascripts %}{% endblock %}
 
     </div> <!-- /container -->

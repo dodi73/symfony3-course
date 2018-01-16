@@ -1,0 +1,10 @@
+{
+  "name": "symfony3-basic",
+  "homepage": "https://github.com/dodi73/symfony3-course",
+  "authors": [
+    "toth8j <dodidaddy@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT"
+}

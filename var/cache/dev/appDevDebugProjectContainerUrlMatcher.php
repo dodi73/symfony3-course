@@ -114,9 +114,39 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
             return $ret;
         }
 
-        // products
-        if ('/products' === $pathinfo) {
-            return array (  '_controller' => 'AppBundle\\Controller\\DefaultController::productsAction',  '_route' => 'products',);
+        if (0 === strpos($pathinfo, '/product')) {
+            // products
+            if ('/product' === $pathinfo) {
+                return array (  '_controller' => 'AppBundle\\Controller\\DefaultController::productsAction',  '_route' => 'products',);
+            }
+
+            // productsproduct_home
+            if ('/product' === $trimmedPathinfo) {
+                if ('GET' !== $canonicalMethod) {
+                    $allow[] = 'GET';
+                    goto not_productsproduct_home;
+                }
+
+                $ret = array (  '_controller' => 'AppBundle\\Controller\\ProductController::indexAction',  '_route' => 'productsproduct_home',);
+                if (substr($pathinfo, -1) !== '/') {
+                    return array_replace($ret, $this->redirect($rawPathinfo.'/', 'productsproduct_home'));
+                }
+
+                return $ret;
+            }
+            not_productsproduct_home:
+
+            // productsproduct_list
+            if ('/product/list' === $pathinfo) {
+                if ('GET' !== $canonicalMethod) {
+                    $allow[] = 'GET';
+                    goto not_productsproduct_list;
+                }
+
+                return array (  '_controller' => 'AppBundle\\Controller\\ProductController::listAction',  '_route' => 'productsproduct_list',);
+            }
+            not_productsproduct_list:
+
         }
 
         throw 0 < count($allow) ? new MethodNotAllowedException(array_unique($allow)) : new ResourceNotFoundException();

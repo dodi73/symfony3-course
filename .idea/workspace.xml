@@ -1,11 +1,601 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b424feb4-2f01-4e5e-92e1-14e063e3fe24" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/symfony3-basic.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="b424feb4-2f01-4e5e-92e1-14e063e3fe24" name="Default" comment="symfony bevezetés-folytatás.">
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/angular/.bower.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/angular/LICENSE.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/angular/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/angular/angular-csp.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/angular/angular.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/angular/angular.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/angular/angular.min.js.gzip" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/angular/angular.min.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/angular/bower.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/angular/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/angular/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/.bower.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/CHANGELOG.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/Gemfile" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/Gemfile.lock" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/Gruntfile.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/ISSUE_TEMPLATE.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/bower.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/dist/css/bootstrap-theme.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/dist/css/bootstrap-theme.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/dist/css/bootstrap-theme.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/dist/css/bootstrap-theme.min.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/dist/css/bootstrap.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/dist/css/bootstrap.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/dist/css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/dist/css/bootstrap.min.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/dist/js/bootstrap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/dist/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/dist/js/npm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/grunt/.jshintrc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/grunt/bs-commonjs-generator.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/grunt/bs-glyphicons-data-generator.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/grunt/bs-lessdoc-parser.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/grunt/bs-raw-files-generator.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/grunt/change-version.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/grunt/configBridge.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/grunt/npm-shrinkwrap.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/grunt/sauce_browsers.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/js/.jscsrc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/js/.jshintrc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/js/affix.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/js/alert.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/js/button.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/js/carousel.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/js/collapse.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/js/dropdown.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/js/modal.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/js/popover.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/js/scrollspy.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/js/tab.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/js/tooltip.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/js/transition.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/.csscomb.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/.csslintrc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/alerts.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/badges.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/bootstrap.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/breadcrumbs.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/button-groups.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/buttons.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/carousel.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/close.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/code.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/component-animations.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/dropdowns.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/forms.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/glyphicons.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/grid.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/input-groups.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/jumbotron.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/labels.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/list-group.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/media.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/mixins.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/mixins/alerts.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/mixins/background-variant.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/mixins/border-radius.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/mixins/buttons.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/mixins/center-block.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/mixins/clearfix.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/mixins/forms.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/mixins/gradients.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/mixins/grid-framework.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/mixins/grid.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/mixins/hide-text.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/mixins/image.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/mixins/labels.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/mixins/list-group.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/mixins/nav-divider.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/mixins/nav-vertical-align.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/mixins/opacity.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/mixins/pagination.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/mixins/panels.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/mixins/progress-bar.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/mixins/reset-filter.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/mixins/reset-text.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/mixins/resize.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/mixins/responsive-visibility.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/mixins/size.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/mixins/tab-focus.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/mixins/table-row.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/mixins/text-emphasis.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/mixins/text-overflow.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/mixins/vendor-prefixes.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/modals.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/navbar.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/navs.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/normalize.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/pager.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/pagination.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/panels.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/popovers.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/print.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/progress-bars.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/responsive-embed.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/responsive-utilities.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/scaffolding.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/tables.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/theme.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/thumbnails.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/tooltip.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/type.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/utilities.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/variables.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/less/wells.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/nuget/MyGet.ps1" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/nuget/bootstrap.less.nuspec" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/nuget/bootstrap.nuspec" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/package.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/bootstrap/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/.bower.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/AUTHORS.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/LICENSE.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/bower.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/dist/core.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/dist/jquery.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/dist/jquery.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/dist/jquery.min.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/dist/jquery.slim.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/dist/jquery.slim.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/dist/jquery.slim.min.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/external/sizzle/LICENSE.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/external/sizzle/dist/sizzle.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/external/sizzle/dist/sizzle.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/external/sizzle/dist/sizzle.min.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/.eslintrc.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/ajax.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/ajax/jsonp.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/ajax/load.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/ajax/parseXML.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/ajax/script.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/ajax/var/location.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/ajax/var/nonce.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/ajax/var/rquery.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/ajax/xhr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/attributes.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/attributes/attr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/attributes/classes.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/attributes/prop.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/attributes/support.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/attributes/val.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/callbacks.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/core.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/core/DOMEval.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/core/access.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/core/init.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/core/nodeName.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/core/parseHTML.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/core/ready-no-deferred.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/core/ready.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/core/readyException.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/core/stripAndCollapse.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/core/support.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/core/var/rsingleTag.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/css.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/css/addGetHookIf.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/css/adjustCSS.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/css/curCSS.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/css/hiddenVisibleSelectors.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/css/showHide.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/css/support.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/css/var/cssExpand.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/css/var/getStyles.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/css/var/isHiddenWithinTree.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/css/var/rmargin.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/css/var/rnumnonpx.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/css/var/swap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/data.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/data/Data.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/data/var/acceptData.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/data/var/dataPriv.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/data/var/dataUser.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/deferred.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/deferred/exceptionHook.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/deprecated.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/dimensions.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/effects.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/effects/Tween.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/effects/animatedSelector.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/event.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/event/ajax.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/event/alias.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/event/focusin.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/event/support.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/event/trigger.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/exports/amd.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/exports/global.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/jquery.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/manipulation.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/manipulation/_evalUrl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/manipulation/buildFragment.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/manipulation/getAll.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/manipulation/setGlobalEval.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/manipulation/support.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/manipulation/var/rcheckableType.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/manipulation/var/rscriptType.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/manipulation/var/rtagName.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/manipulation/wrapMap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/offset.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/queue.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/queue/delay.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/selector-native.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/selector-sizzle.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/selector.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/serialize.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/traversing.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/traversing/findFilter.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/traversing/var/dir.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/traversing/var/rneedsContext.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/traversing/var/siblings.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/var/ObjectFunctionString.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/var/arr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/var/class2type.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/var/concat.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/var/document.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/var/documentElement.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/var/fnToString.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/var/getProto.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/var/hasOwn.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/var/indexOf.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/var/pnum.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/var/push.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/var/rcssNum.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/var/rnothtmlwhite.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/var/slice.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/var/support.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/var/toString.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/bower_components/jquery/src/wrap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/popper.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/product.js" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/product/index.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/product/index.html.twig" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerJfbyved.legacy" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/appDevDebugProjectContainer.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getAnnotations_CacheWarmerService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getArgumentResolver_DefaultService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getArgumentResolver_RequestAttributeService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getArgumentResolver_RequestService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getArgumentResolver_ServiceService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getArgumentResolver_SessionService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getArgumentResolver_VariadicService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getCacheClearerService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getCacheWarmerService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getCache_DefaultClearerService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getCache_GlobalClearerService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getCache_SystemClearerService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getConfig_Resource_SelfCheckingResourceCheckerService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getConsole_CommandLoaderService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getConsole_Command_AboutService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getConsole_Command_AssetsInstallService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getConsole_Command_CacheClearService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getConsole_Command_CachePoolClearService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getConsole_Command_CachePoolPruneService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getConsole_Command_CacheWarmupService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getConsole_Command_ConfigDebugService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getConsole_Command_ConfigDumpReferenceService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getConsole_Command_ContainerDebugService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getConsole_Command_DebugAutowiringService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getConsole_Command_EventDispatcherDebugService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getConsole_Command_FormDebugService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getConsole_Command_RouterDebugService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getConsole_Command_RouterMatchService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getConsole_Command_XliffLintService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getConsole_Command_YamlLintService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getConsole_ErrorListenerService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getDebug_DumpListenerService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getDefaultControllerService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getDependencyInjection_Config_ContainerParametersResourceCheckerService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getDeprecated_Form_RegistryService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getDeprecated_Form_Registry_CsrfService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getDoctrineCache_ContainsCommandService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getDoctrineCache_DeleteCommandService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getDoctrineCache_FlushCommandService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getDoctrineCache_Providers_Doctrine_Orm_DefaultMetadataCacheService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getDoctrineCache_Providers_Doctrine_Orm_DefaultQueryCacheService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getDoctrineCache_Providers_Doctrine_Orm_DefaultResultCacheService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getDoctrineCache_StatsCommandService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getDoctrine_CacheClearMetadataCommandService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getDoctrine_CacheClearQueryCacheCommandService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getDoctrine_CacheClearResultCommandService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getDoctrine_CacheCollectionRegionCommandService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getDoctrine_ClearEntityRegionCommandService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getDoctrine_ClearQueryRegionCommandService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getDoctrine_DatabaseCreateCommandService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getDoctrine_DatabaseDropCommandService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getDoctrine_DatabaseImportCommandService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getDoctrine_Dbal_ConnectionFactoryService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getDoctrine_Dbal_DefaultConnectionService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getDoctrine_EnsureProductionSettingsCommandService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getDoctrine_GenerateEntitiesCommandService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getDoctrine_MappingConvertCommandService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getDoctrine_MappingImportCommandService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getDoctrine_MappingInfoCommandService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getDoctrine_Orm_DefaultEntityListenerResolverService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getDoctrine_Orm_DefaultEntityManagerService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getDoctrine_Orm_DefaultEntityManager_PropertyInfoExtractorService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getDoctrine_Orm_DefaultListeners_AttachEntityListenersService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getDoctrine_Orm_DefaultManagerConfiguratorService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getDoctrine_Orm_ProxyCacheWarmerService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getDoctrine_Orm_Validator_UniqueService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getDoctrine_QueryDqlCommandService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getDoctrine_QuerySqlCommandService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getDoctrine_SchemaCreateCommandService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getDoctrine_SchemaDropCommandService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getDoctrine_SchemaUpdateCommandService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getDoctrine_SchemaValidateCommandService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getFileLocatorService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getFilesystemService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getForm_FactoryService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getForm_RegistryService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getForm_ResolvedTypeFactoryService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getForm_ServerParamsService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getForm_TypeExtension_CsrfService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getForm_TypeExtension_Form_DataCollectorService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getForm_TypeExtension_Form_HttpFoundationService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getForm_TypeExtension_Form_ValidatorService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getForm_TypeExtension_Repeated_ValidatorService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getForm_TypeExtension_Submit_ValidatorService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getForm_TypeExtension_Upload_ValidatorService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getForm_TypeGuesser_DoctrineService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getForm_TypeGuesser_ValidatorService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getForm_Type_BirthdayService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getForm_Type_ButtonService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getForm_Type_CheckboxService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getForm_Type_ChoiceService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getForm_Type_CollectionService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getForm_Type_CountryService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getForm_Type_CurrencyService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getForm_Type_DateService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getForm_Type_DatetimeService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getForm_Type_EmailService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getForm_Type_EntityService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getForm_Type_FileService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getForm_Type_FormService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getForm_Type_HiddenService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getForm_Type_IntegerService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getForm_Type_LanguageService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getForm_Type_LocaleService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getForm_Type_MoneyService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getForm_Type_NumberService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getForm_Type_PasswordService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getForm_Type_PercentService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getForm_Type_RadioService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getForm_Type_RangeService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getForm_Type_RepeatedService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getForm_Type_ResetService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getForm_Type_SearchService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getForm_Type_SubmitService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getForm_Type_TextService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getForm_Type_TextareaService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getForm_Type_TimeService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getForm_Type_TimezoneService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getForm_Type_UrlService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getFragment_HandlerService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getFragment_Renderer_HincludeService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getFragment_Renderer_InlineService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getKernel_ClassCache_CacheWarmerService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getMonolog_ActivationStrategy_NotFoundService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getMonolog_Handler_FingersCrossed_ErrorLevelActivationStrategyService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getMonolog_Handler_NullInternalService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getMonolog_Logger_ConsoleService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getMonolog_Logger_DoctrineService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getMonolog_Logger_SecurityService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getPropertyAccessorService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getRedirectControllerService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getRouter_CacheWarmerService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getRouting_LoaderService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getSecurity_AccessListenerService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getSecurity_AccessMapService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getSecurity_Access_AuthenticatedVoterService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getSecurity_Access_ExpressionVoterService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getSecurity_Access_SimpleRoleVoterService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getSecurity_AuthenticationUtilsService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getSecurity_Authentication_GuardHandlerService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getSecurity_Authentication_Listener_Anonymous_MainService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getSecurity_Authentication_Provider_Anonymous_MainService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getSecurity_ChannelListenerService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getSecurity_Command_UserPasswordEncoderService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getSecurity_ContextListener_0Service.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getSecurity_Csrf_TokenManagerService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getSecurity_EncoderFactoryService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getSecurity_Firewall_Map_Context_DevService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getSecurity_Firewall_Map_Context_MainService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getSecurity_PasswordEncoderService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getSecurity_RequestMatcher_Zfhj2lwService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getSecurity_UserValueResolverService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getSecurity_User_Provider_Concrete_InMemoryService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getSecurity_Validator_UserPasswordService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getSensioDistribution_SecurityCheckerService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getSensioDistribution_SecurityChecker_CommandService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getServicesResetterService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getSessionService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getSession_HandlerService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getSession_Storage_FilesystemService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getSession_Storage_MetadataBagService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getSession_Storage_NativeService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getSession_Storage_PhpBridgeService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getSwiftmailer_EmailSender_ListenerService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getSwiftmailer_Mailer_DefaultService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getSwiftmailer_Mailer_Default_Plugin_MessageloggerService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getSwiftmailer_Mailer_Default_SpoolService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getSwiftmailer_Mailer_Default_TransportService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getSwiftmailer_Mailer_Default_Transport_EventdispatcherService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getSwiftmailer_Mailer_Default_Transport_RealService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getTemplateControllerService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getTemplating_Helper_LogoutUrlService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getTemplating_Helper_SecurityService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getTwig_CacheWarmerService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getTwig_Command_DebugService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getTwig_Command_LintService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getTwig_Controller_ExceptionService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getTwig_Controller_PreviewErrorService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getTwig_ExceptionListenerService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getTwig_Form_RendererService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getTwig_Runtime_HttpkernelService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getTwig_TemplateCacheWarmerService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getTwig_Translation_ExtractorService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getValidator_EmailService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getValidator_ExpressionService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getValidator_Mapping_CacheWarmerService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getVarDumper_CliDumperService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getWebProfiler_Controller_ExceptionService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getWebProfiler_Controller_ProfilerService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getWebProfiler_Controller_RouterService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getWebServer_Command_ServerLogService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getWebServer_Command_ServerRunService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getWebServer_Command_ServerStartService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getWebServer_Command_ServerStatusService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/getWebServer_Command_ServerStopService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerRfbmenr/removed-ids.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php.meta" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php.meta" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml.meta" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml.meta" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerCompiler.log" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerCompiler.log" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlGenerator.php" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlGenerator.php" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlGenerator.php.meta" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlGenerator.php.meta" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlMatcher.php" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlMatcher.php" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlMatcher.php.meta" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlMatcher.php.meta" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/ZSAm0VTtui/A/G/FT+ony8rJq-uN9Neh0qq" afterPath="$PROJECT_DIR$/var/cache/dev/pools/ZSAm0VTtui/A/G/FT+ony8rJq-uN9Neh0qq" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/ZSAm0VTtui/A/W/pWowK1X+V-+JqrMMX7nx" afterPath="$PROJECT_DIR$/var/cache/dev/pools/ZSAm0VTtui/A/W/pWowK1X+V-+JqrMMX7nx" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/ZSAm0VTtui/F/0/8JJ88tJDxerRTHVte3kH" afterPath="$PROJECT_DIR$/var/cache/dev/pools/ZSAm0VTtui/F/0/8JJ88tJDxerRTHVte3kH" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/ZSAm0VTtui/O/C/kk2eNsXNvqLNJlgjx8Lp" afterPath="$PROJECT_DIR$/var/cache/dev/pools/ZSAm0VTtui/O/C/kk2eNsXNvqLNJlgjx8Lp" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/ZSAm0VTtui/S/D/yJUw4Iu8V5kUd6RPwY2H" afterPath="$PROJECT_DIR$/var/cache/dev/pools/ZSAm0VTtui/S/D/yJUw4Iu8V5kUd6RPwY2H" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/ZSAm0VTtui/X/T/b+lBMrqZaWzJniS2Tik0" afterPath="$PROJECT_DIR$/var/cache/dev/pools/ZSAm0VTtui/X/T/b+lBMrqZaWzJniS2Tik0" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" afterPath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/43/43d0542f12b074fcda12c53066653ce3f009b91118e949194cd623cecedc6a6f.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/43/43d0542f12b074fcda12c53066653ce3f009b91118e949194cd623cecedc6a6f.php" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/62/62dc45aae9f2cad43d77ea23365eb437a9ce2d48b8e2424c12786f51fbcbcfb5.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/62/62dc45aae9f2cad43d77ea23365eb437a9ce2d48b8e2424c12786f51fbcbcfb5.php" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/af/af39123df99423d013e9cdebdb262b97b0b90e0b769c86182947e9b2857e11f7.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/af/af39123df99423d013e9cdebdb262b97b0b90e0b769c86182947e9b2857e11f7.php" />
+      <change beforePath="$PROJECT_DIR$/var/logs/dev.log" afterPath="$PROJECT_DIR$/var/logs/dev.log" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_07855nncs78ha3osjcg6bk20l7" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_0a8cglp925a83qtrq1arn385b3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_0ji283u3otn23k4qin0mfsdkk7" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_179n6isr4i2l5711c2ijagtas0" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_17je52f286qv99607o4vt91e90" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_1dmlr3pjn7hjb4pckvfc6bjcm6" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_1l53198qssrcbr9hjjuv7oanl0" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_1mptoheqjmf6clhjevg73s3o01" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_26h9ahlqdtem9o1e7134to3192" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_2aceqnvc7t38co4fuaaco5os14" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_2m200ukfufm61hpjvu4t8pg8m5" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_2sgik1s2tdtrg10qg47vde6ik2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_340tdr068upm667jkmraold8u5" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_37nk3cjd1nqvn3in6dte32b1o3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_3dis3cf3fr1qj35loug0t1gfg2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_3h56j9659mhg2ofrdt639i9bm4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_3lev0ghn05fv63jklcka7no827" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_3p3lspjgr1sr5ufnj2gdejvlv1" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_3qvpqpa3icun4lak3cfq85fb63" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_453rgs10fra5v8s4dgpnjtjht7" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_4jgkc18tr7rg904i43ke1on5d4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_4mqtcv2v74404kbcd2dgbcaml2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_4sndlu5ve7s46qlca72m77p1j6" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_53srlbjsgjrrasdcil2gu4q4n7" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_5jbceghtmhfql8rdmkk4b4ihh7" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_5q1jhgrv3nna9evobl6leto9c3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_6mtsfjka7uq25v2djausnc7of0" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_71vosdqikf4ra5dl8g1r8oafk5" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_79qe9a7bm2rbuikrnu7d3rchf5" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_7buh23rhgl83ldcfu9haja5t64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_7bvatckkpcl9d19q065alv6b93" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_7jov2fqq75r51n8mfs97nt9nj4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_80lg53cm0qe6lj3saihsv6v872" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_84s15kjk0ns2o9mf95lntm9937" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_8i6dtv60mo8vt16od2j0uru2s5" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_9590gp44aavbecmfjp9nduvvm0" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_966fj8gd2cvrcl634nopva7l57" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_9e6e5rt9s4e0kqolvhc32kfom5" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_9eef4rmfj7ovg9micbpac1ja22" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_9ffs6ahf0kk1ebj853nonkulb4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_9ktodveao8uh3gd1ab8frug4p6" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_9mi0cg27rimcc6993822ddq4f7" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_9mkjd8o259ovuu6mt8nq1jc2n4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_9otsffkbkkjubsr72m51kbolb3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_a2m0vtuv5inlmh1jhs6qsuo8o4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_b72tb0fibeva245vakfs2t2283" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_bjege0qbuha6ej8lulhvl57i44" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_blsj7mljpkl1049tls67c76ur4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_cpgn1lkghpaambtt4eoscv4bi0" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_ddtg5283pqn8s6l4d5hijv0397" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_dei4upd618a4qsul9habmm3fu1" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_djv6eog0oulgoomgcngovnph72" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_dk489a8dlr5aqb1vp2klhug747" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_dk7h71mr2b2f6mmn0tftmr4rl2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_f8quse442v2nn0ji905tmf09o5" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_fac8g4uogt9dm6bgnslgpt0sp1" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_fe51n31f5l012neuh4pp7v20m7" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_fkvp2q9feo8a5tajpk9a9tlpm4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_fltmvc33chm580u878foqs17n6" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_g1sic65refrbmh9qucp9qttv05" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_gn05ukpj77kl2khjkqjp08rmo7" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_gvt219r0hvl469efbbhnktf044" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_h0ajcb5lsuh7buj6ufipjsfd17" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_h1oq6n0ibi9gnj8cgr78i2pos1" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_han8la1gejp79ud72pbpnap6s1" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_hjhl53ghnl106kt2q5bvo1rn75" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_hupikqvrj4l8vmu98cln8l53a5" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_i3s28nkpod12m9f34o0uas6qi0" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_ian1g81426oqkcr5bgjc3i5vm7" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_ibnmuegtv8q5o5ag3obivvk692" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_iv2kn57aijklhv5n16r4h9ivf6" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_j26sveqf6akhhelfvgajo9nir7" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_j3bic0dt937hcarg8kapk3kb61" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_jo06c4hf0vsdmh0jt73e3s94l2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_ktbs67q876er2rnqbl0vqugbn5" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_kth5gddhm6tqa9b1s8afdk1iv7" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_l2jj32f082a369hpki2s2grd16" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_la8n4td8cqll9idkhiq6htjsu0" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_ljbh84er02e1of5unpq8kj81l4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_lko51381raaki1uct4dj8kiv07" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_m1gvckpq631amdi8kjk6sb14c4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_n078g5e8b82hk0sj5lpcmp6oo3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_n46vm39oel4ahei83ojniu9663" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_n7odopat1aep04r2plmjpqj3j0" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_nkh3g7j7ahsktkjd22gpbumgq2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_o5q0eskv7159j2ce4nuouk7dr1" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_ooo5j6r4jfnbh2kl89td48oep7" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_otpt76j8hgjftoml3hu5ak8jr7" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_pkcied7182q1b9nog7376dphg4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_pl9a4fckhnic20no9f94ll68b3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_q8g16jcq2fc4mt5urem0hb6mo6" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_qcr1tlejeo7m1jhqnqoorkg074" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_qqgqckc9r63n97qdluv2epetc6" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_qtpor37df61k3jfmr5vlocn543" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_sfhql81c0voif0r6jgkgdof5l1" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_srb8d6hm0tijn17cj9kpf19d57" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_ssofj6r5j2ksgb44m1aqu79an7" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_t5jimtk9tiilrs720rftdgkji2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_t8ifa12aon20jgi92d2u825dk3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_tcbgs3k4in0ngc671vua54me92" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_teqtlnt5argl6ld8r9ctkjstd1" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_tl9pbe4a803gv99imh3gfctb05" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_trf65m80psh6o0h5i5dc7ggpk7" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_u73ouq2jos7pirs9dadlm5gh94" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_uiofvgtjblqst5o47dl13frgl2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_vka9p5qcec2e5cgfsh9gif7gr2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_vtg63m1ngi869hlj32tu3gqfo6" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,41 +609,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="nav.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/default/nav.html.twig">
+      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DefaultControllerTest.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/AppBundle/Controller/DefaultControllerTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/default/footer.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="38" column="12" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="14" />
+            <state relative-caret-position="594">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -62,8 +622,8 @@
       <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            <state relative-caret-position="440">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
                 <element signature="e#40#99#0#PHP" expanded="true" />
               </folding>
@@ -71,11 +631,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <file leaf-file-name="ProductController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/ProductController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
-              <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+              <caret line="30" column="43" lean-forward="true" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+              <folding>
+                <element signature="e#40#99#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nav.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/default/nav.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -84,8 +656,18 @@
       <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/product/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="440">
+              <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/js/product.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -101,13 +683,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/Resources/views/default/footer.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
         <option value="$PROJECT_DIR$/web/css/justified-nav.css" />
-        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/default/nav.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/views/product/index.html.twig" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/bower.json" />
+        <option value="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
+        <option value="$PROJECT_DIR$/web/js/popper.min.js" />
+        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Controller/ProductController.php" />
+        <option value="$PROJECT_DIR$/app/Resources/views/product/index.html.twig" />
+        <option value="$PROJECT_DIR$/web/js/product.js" />
       </list>
     </option>
   </component>
@@ -161,9 +747,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1360" />
-    <option name="y" value="135" />
-    <option name="width" value="1381" />
-    <option name="height" value="910" />
+    <option name="y" value="124" />
+    <option name="width" value="1571" />
+    <option name="height" value="921" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -182,7 +768,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -194,12 +779,20 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\symfony3-basic\web" />
+      <recent name="C:\wamp64\www\symfony3-basic\web\js" />
+      <recent name="C:\wamp64\www\symfony3-basic\web\css" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -231,7 +824,8 @@
       <workItem from="1515755204417" duration="4376000" />
       <workItem from="1515767943816" duration="1772000" />
       <workItem from="1516003156351" duration="3977000" />
-      <workItem from="1516010116547" duration="1121000" />
+      <workItem from="1516010116547" duration="10425000" />
+      <workItem from="1516090448503" duration="16971000" />
     </task>
     <task id="LOCAL-00001" summary="Első feltöltés, symfony bevezetés.">
       <created>1516010232719</created>
@@ -247,17 +841,23 @@
       <option name="project" value="LOCAL" />
       <updated>1516010620652</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="symfony bevezetés-folytatás.">
+      <created>1516120100925</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1516120100925</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27026000" />
+    <option name="totallyTimeSpent" value="53301000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1360" y="135" width="1381" height="910" extended-state="0" />
-    <editor active="true" />
+    <frame x="1360" y="124" width="1571" height="921" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17802198" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20185308" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -265,7 +865,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24968153" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -276,6 +876,26 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998747" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21448664" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998747" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -284,114 +904,18 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="C:\wamp64\www\symfony3-basic\symfony3-course" />
+    </ignored-roots>
     <MESSAGE value="Első feltöltés, symfony bevezetés." />
-    <option name="LAST_COMMIT_MESSAGE" value="Első feltöltés, symfony bevezetés." />
+    <MESSAGE value="symfony bevezetés-folytatás." />
+    <option name="LAST_COMMIT_MESSAGE" value="symfony bevezetés-folytatás." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/nav.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/footer.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="e#40#99#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/product/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/nav.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/footer.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="e#40#99#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/product/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -546,20 +1070,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/justified-nav.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/AppBundle.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -574,6 +1084,91 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-942">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/justified-nav.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-21">
+          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/bootstrap.css" />
+    <entry file="file://$PROJECT_DIR$/web/js/jquery.min.js" />
+    <entry file="file://$PROJECT_DIR$/web/js/bootstrap.min.js" />
+    <entry file="file://$PROJECT_DIR$/web/css/bootstrap.min.css" />
+    <entry file="file://$PROJECT_DIR$/web/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bower_components/jquery/src/css/var/swap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/popper.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/footer.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/robots.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/AppBundle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/AppBundle/Controller/DefaultControllerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-869">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -586,44 +1181,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/bower.json">
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/AppBundle/Controller/DefaultControllerTest.php">
+    <entry file="file://$PROJECT_DIR$/app/config/routing_dev.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
+    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="e#40#99#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/product/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/footer.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -631,22 +1208,38 @@
     <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
-          <caret line="38" column="12" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="14" />
+          <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/nav.html.twig">
+    <entry file="file://$PROJECT_DIR$/web/app.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
+    <entry file="file://$PROJECT_DIR$/web/app_dev.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-942">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8473">
+          <caret line="2" column="2" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpunit.xml.dist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -654,9 +1247,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        <state relative-caret-position="594">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#40#99#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/nav.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/product/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/product.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/ProductController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="30" column="43" lean-forward="true" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+          <folding>
+            <element signature="e#40#99#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

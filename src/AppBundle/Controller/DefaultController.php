@@ -20,7 +20,7 @@ class DefaultController extends Controller
     }
 
     /**
-     * @Route("/products", name="products")
+     * @Route("/product", name="products")
      */
     public function productsAction(Request $request)
     {
@@ -29,4 +29,5 @@ class DefaultController extends Controller
             'base_dir' => realpath($this->getParameter('kernel.project_dir')).DIRECTORY_SEPARATOR,
         ]);
     }
+
 }
