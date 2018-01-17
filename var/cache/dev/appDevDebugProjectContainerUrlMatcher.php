@@ -120,22 +120,6 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
                 return array (  '_controller' => 'AppBundle\\Controller\\DefaultController::productsAction',  '_route' => 'products',);
             }
 
-            // productsproduct_home
-            if ('/product' === $trimmedPathinfo) {
-                if ('GET' !== $canonicalMethod) {
-                    $allow[] = 'GET';
-                    goto not_productsproduct_home;
-                }
-
-                $ret = array (  '_controller' => 'AppBundle\\Controller\\ProductController::indexAction',  '_route' => 'productsproduct_home',);
-                if (substr($pathinfo, -1) !== '/') {
-                    return array_replace($ret, $this->redirect($rawPathinfo.'/', 'productsproduct_home'));
-                }
-
-                return $ret;
-            }
-            not_productsproduct_home:
-
             // productsproduct_list
             if ('/product/list' === $pathinfo) {
                 if ('GET' !== $canonicalMethod) {

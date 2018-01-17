@@ -56,7 +56,6 @@ Symfony\Component\DependencyInjection\Compiler\AutowirePass: Cannot autowire ser
 Symfony\Component\DependencyInjection\Compiler\AutowirePass: Cannot autowire service "service_locator.g58zqqv": it references class "Symfony\Component\HttpFoundation\Request" but no such service exists. It cannot be auto-registered because it is from a different root namespace.
 Symfony\Component\HttpKernel\DependencyInjection\RemoveEmptyControllerArgumentLocatorsPass: Removing service-argument resolver for controller "AppBundle\Controller\DefaultController:indexAction": no corresponding services exist for the referenced types.
 Symfony\Component\HttpKernel\DependencyInjection\RemoveEmptyControllerArgumentLocatorsPass: Removing service-argument resolver for controller "AppBundle\Controller\DefaultController:productsAction": no corresponding services exist for the referenced types.
-Symfony\Component\HttpKernel\DependencyInjection\RemoveEmptyControllerArgumentLocatorsPass: Removing service-argument resolver for controller "AppBundle\Controller\ProductController:indexAction": no corresponding services exist for the referenced types.
 Symfony\Component\HttpKernel\DependencyInjection\RemoveEmptyControllerArgumentLocatorsPass: Removing service-argument resolver for controller "AppBundle\Controller\ProductController:listAction": no corresponding services exist for the referenced types.
 Symfony\Component\DependencyInjection\Compiler\RemovePrivateAliasesPass: Removed service "Psr\Container\ContainerInterface"; reason: private alias.
 Symfony\Component\DependencyInjection\Compiler\RemovePrivateAliasesPass: Removed service "Symfony\Component\DependencyInjection\ContainerInterface"; reason: private alias.
@@ -263,7 +262,7 @@ Symfony\Component\DependencyInjection\Compiler\RemoveAbstractDefinitionsPass: Re
 Symfony\Component\DependencyInjection\Compiler\RemoveAbstractDefinitionsPass: Removed service "abstract.instanceof.AppBundle\Controller\DefaultController"; reason: abstract.
 Symfony\Component\DependencyInjection\Compiler\RemoveAbstractDefinitionsPass: Removed service "instanceof.Symfony\Bundle\FrameworkBundle\Controller\Controller.0.AppBundle\Controller\ProductController"; reason: abstract.
 Symfony\Component\DependencyInjection\Compiler\RemoveAbstractDefinitionsPass: Removed service "abstract.instanceof.AppBundle\Controller\ProductController"; reason: abstract.
-Symfony\Component\DependencyInjection\Compiler\InlineServiceDefinitionsPass: Inlined service "service_locator.ra.lfjo" to "argument_resolver.service".
+Symfony\Component\DependencyInjection\Compiler\InlineServiceDefinitionsPass: Inlined service "service_locator.jw3bs9t" to "argument_resolver.service".
 Symfony\Component\DependencyInjection\Compiler\InlineServiceDefinitionsPass: Inlined service "service_locator.w7xlwgx" to "fragment.handler".
 Symfony\Component\DependencyInjection\Compiler\InlineServiceDefinitionsPass: Inlined service "cache.app.recorder_inner" to "cache.app".
 Symfony\Component\DependencyInjection\Compiler\InlineServiceDefinitionsPass: Inlined service "cache.system.recorder_inner" to "cache.system".
@@ -529,7 +528,7 @@ Symfony\Component\DependencyInjection\Compiler\RemoveUnusedDefinitionsPass: Remo
 Symfony\Component\DependencyInjection\Compiler\RemoveUnusedDefinitionsPass: Removed service "twig.extension.webprofiler"; reason: unused.
 Symfony\Component\DependencyInjection\Compiler\RemoveUnusedDefinitionsPass: Removed service "service_locator.f4ewnep"; reason: unused.
 Symfony\Component\DependencyInjection\Compiler\RemoveUnusedDefinitionsPass: Removed service "service_locator.g58zqqv"; reason: unused.
-Symfony\Component\DependencyInjection\Compiler\RemoveUnusedDefinitionsPass: Removed service "service_locator.ra.lfjo"; reason: unused.
+Symfony\Component\DependencyInjection\Compiler\RemoveUnusedDefinitionsPass: Removed service "service_locator.jw3bs9t"; reason: unused.
 Symfony\Component\DependencyInjection\Compiler\RemoveUnusedDefinitionsPass: Removed service "service_locator.3wkzln9"; reason: unused.
 Symfony\Component\DependencyInjection\Compiler\RemoveUnusedDefinitionsPass: Removed service "service_locator.w7xlwgx"; reason: unused.
 Symfony\Component\DependencyInjection\Compiler\RemoveUnusedDefinitionsPass: Removed service "service_locator.0blprly"; reason: unused.

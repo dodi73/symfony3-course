@@ -15,10 +15,12 @@ use Symfony\Component\HttpFoundation\Response;
 
 class ProductController extends Controller
 {
+/*
     /**
      * @Route("/", name="product_home")
      * @Method({"GET"});
      */
+/*
     public function indexAction(Request $request)
     {
         // replace this example code with whatever you need
@@ -26,6 +28,7 @@ class ProductController extends Controller
             'base_dir' => realpath($this->getParameter('kernel.project_dir')).DIRECTORY_SEPARATOR,
         ]);
     }
+ */
 
     /**
      * @Route("/list", name="product_list")
