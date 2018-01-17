@@ -4,7 +4,7 @@
 namespace AppBundle\Entity;
 
 //ORM osztály beemelése, állnévvel:
-use Doctrine\Orm\Mapping as ORM;
+use Doctrine\ORM\Mapping as ORM;
 
 //Adatbázis táblák neveinek definiálása annotációkkal, korábban a routing szabályokat és a
 //metódusokat is ezzel adtuk meg. product a tábla neve.
