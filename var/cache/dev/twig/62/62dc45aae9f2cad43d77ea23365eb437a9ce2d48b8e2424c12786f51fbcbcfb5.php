@@ -22,29 +22,29 @@ class __TwigTemplate_bb08cb4721406a93a60fcaa878277c7aaccd667ecdbfc538f6aeb75d69e
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_2aa59e6472b485b9a09602e19b4e250c3c2ee86d1bdc345d1abfc7d3dd84da1e = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_2aa59e6472b485b9a09602e19b4e250c3c2ee86d1bdc345d1abfc7d3dd84da1e->enter($__internal_2aa59e6472b485b9a09602e19b4e250c3c2ee86d1bdc345d1abfc7d3dd84da1e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "product/index.html.twig"));
+        $__internal_1e616b5ef7ee8c58719782223c0b09e63b8bf31143b8faf99d90c024d45006c4 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_1e616b5ef7ee8c58719782223c0b09e63b8bf31143b8faf99d90c024d45006c4->enter($__internal_1e616b5ef7ee8c58719782223c0b09e63b8bf31143b8faf99d90c024d45006c4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "product/index.html.twig"));
 
-        $__internal_8935ae3135dfc1237745c507908be5584beec80c80e89f812aeffccf0ad80de9 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_8935ae3135dfc1237745c507908be5584beec80c80e89f812aeffccf0ad80de9->enter($__internal_8935ae3135dfc1237745c507908be5584beec80c80e89f812aeffccf0ad80de9_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "product/index.html.twig"));
+        $__internal_d1274db9fb58bb4988a71ea725421b75f9fdd30b5ef803956a777410901202a3 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_d1274db9fb58bb4988a71ea725421b75f9fdd30b5ef803956a777410901202a3->enter($__internal_d1274db9fb58bb4988a71ea725421b75f9fdd30b5ef803956a777410901202a3_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "product/index.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_2aa59e6472b485b9a09602e19b4e250c3c2ee86d1bdc345d1abfc7d3dd84da1e->leave($__internal_2aa59e6472b485b9a09602e19b4e250c3c2ee86d1bdc345d1abfc7d3dd84da1e_prof);
+        $__internal_1e616b5ef7ee8c58719782223c0b09e63b8bf31143b8faf99d90c024d45006c4->leave($__internal_1e616b5ef7ee8c58719782223c0b09e63b8bf31143b8faf99d90c024d45006c4_prof);
 
         
-        $__internal_8935ae3135dfc1237745c507908be5584beec80c80e89f812aeffccf0ad80de9->leave($__internal_8935ae3135dfc1237745c507908be5584beec80c80e89f812aeffccf0ad80de9_prof);
+        $__internal_d1274db9fb58bb4988a71ea725421b75f9fdd30b5ef803956a777410901202a3->leave($__internal_d1274db9fb58bb4988a71ea725421b75f9fdd30b5ef803956a777410901202a3_prof);
 
     }
 
     // line 3
     public function block_body($context, array $blocks = array())
     {
-        $__internal_6becfcf41c6e4c839019e71d0f0e95b93de8d890e190febb4cae8ed0929afd5d = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_6becfcf41c6e4c839019e71d0f0e95b93de8d890e190febb4cae8ed0929afd5d->enter($__internal_6becfcf41c6e4c839019e71d0f0e95b93de8d890e190febb4cae8ed0929afd5d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_6236fa6d39e470b4d212ab7101d3eded421fd8ca3c912fa2de5d98be6a0d8e30 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_6236fa6d39e470b4d212ab7101d3eded421fd8ca3c912fa2de5d98be6a0d8e30->enter($__internal_6236fa6d39e470b4d212ab7101d3eded421fd8ca3c912fa2de5d98be6a0d8e30_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        $__internal_3d23ee7b0c5905cf638c7c793bbd2fe8ce8904d055233d7a4de4183a1eabbc43 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_3d23ee7b0c5905cf638c7c793bbd2fe8ce8904d055233d7a4de4183a1eabbc43->enter($__internal_3d23ee7b0c5905cf638c7c793bbd2fe8ce8904d055233d7a4de4183a1eabbc43_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_f2579e0719d76c8842df61e41c5ccc325857846e4ffb3aa00b42cb12e529d1c4 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_f2579e0719d76c8842df61e41c5ccc325857846e4ffb3aa00b42cb12e529d1c4->enter($__internal_f2579e0719d76c8842df61e41c5ccc325857846e4ffb3aa00b42cb12e529d1c4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 4
         echo "    <h2>Product list</h2>
@@ -57,9 +57,21 @@ class __TwigTemplate_bb08cb4721406a93a60fcaa878277c7aaccd667ecdbfc538f6aeb75d69e
                            ng-repeat=\"(key, val) in products[0]\"
                            ng-bind=\"key\">
                         </th>
+                        <th>
+                            command
+                        </th>
                     </tr>
                 </thead>
                 <tbody>
+                    <tr>
+                        <td ng-repeat=\"(key, val) in products[0]\">
+                            <input ng-model=\"newProduct[key]\" type=\"text\" class=\"form-control\">
+                        </td>
+                        <td>
+                            <button class=\"btn btn-success\"
+                            ng-click=\"createProduct()\">New</button>
+                        </td>
+                    </tr>
                     <tr ng-repeat=\"product in products\">
                         <td ng-repeat=\"cell in product\" ng-bind=\"cell\"></td>
                     </tr>
@@ -69,36 +81,36 @@ class __TwigTemplate_bb08cb4721406a93a60fcaa878277c7aaccd667ecdbfc538f6aeb75d69e
     </div>
 ";
         
-        $__internal_3d23ee7b0c5905cf638c7c793bbd2fe8ce8904d055233d7a4de4183a1eabbc43->leave($__internal_3d23ee7b0c5905cf638c7c793bbd2fe8ce8904d055233d7a4de4183a1eabbc43_prof);
+        $__internal_f2579e0719d76c8842df61e41c5ccc325857846e4ffb3aa00b42cb12e529d1c4->leave($__internal_f2579e0719d76c8842df61e41c5ccc325857846e4ffb3aa00b42cb12e529d1c4_prof);
 
         
-        $__internal_6becfcf41c6e4c839019e71d0f0e95b93de8d890e190febb4cae8ed0929afd5d->leave($__internal_6becfcf41c6e4c839019e71d0f0e95b93de8d890e190febb4cae8ed0929afd5d_prof);
+        $__internal_6236fa6d39e470b4d212ab7101d3eded421fd8ca3c912fa2de5d98be6a0d8e30->leave($__internal_6236fa6d39e470b4d212ab7101d3eded421fd8ca3c912fa2de5d98be6a0d8e30_prof);
 
     }
 
-    // line 26
+    // line 38
     public function block_javascripts($context, array $blocks = array())
     {
-        $__internal_91a13e352f3c67bfd484a1217964e5f2170e37aaf373e127ac92ca01c5deef07 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_91a13e352f3c67bfd484a1217964e5f2170e37aaf373e127ac92ca01c5deef07->enter($__internal_91a13e352f3c67bfd484a1217964e5f2170e37aaf373e127ac92ca01c5deef07_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
+        $__internal_61abad4fbc14060da4cd75e8c706cc1a374840f9f5dd7b964ad62fd19b2a6086 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_61abad4fbc14060da4cd75e8c706cc1a374840f9f5dd7b964ad62fd19b2a6086->enter($__internal_61abad4fbc14060da4cd75e8c706cc1a374840f9f5dd7b964ad62fd19b2a6086_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
 
-        $__internal_db94c5259cf1e3dba2b4cd6c4f0bd7c71c3b2b5c37c0b97bae570caef59f2506 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_db94c5259cf1e3dba2b4cd6c4f0bd7c71c3b2b5c37c0b97bae570caef59f2506->enter($__internal_db94c5259cf1e3dba2b4cd6c4f0bd7c71c3b2b5c37c0b97bae570caef59f2506_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
+        $__internal_62be9b5704190dc3be2189de1efa2a0dc6be700890592971669a1108599f500f = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_62be9b5704190dc3be2189de1efa2a0dc6be700890592971669a1108599f500f->enter($__internal_62be9b5704190dc3be2189de1efa2a0dc6be700890592971669a1108599f500f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
 
-        // line 27
+        // line 39
         echo "    <script src=\"";
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("bower_components/angular/angular.js"), "html", null, true);
         echo "\"></script>
     <script src=\"";
-        // line 28
+        // line 40
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("js/product.js"), "html", null, true);
         echo "\"></script>
 ";
         
-        $__internal_db94c5259cf1e3dba2b4cd6c4f0bd7c71c3b2b5c37c0b97bae570caef59f2506->leave($__internal_db94c5259cf1e3dba2b4cd6c4f0bd7c71c3b2b5c37c0b97bae570caef59f2506_prof);
+        $__internal_62be9b5704190dc3be2189de1efa2a0dc6be700890592971669a1108599f500f->leave($__internal_62be9b5704190dc3be2189de1efa2a0dc6be700890592971669a1108599f500f_prof);
 
         
-        $__internal_91a13e352f3c67bfd484a1217964e5f2170e37aaf373e127ac92ca01c5deef07->leave($__internal_91a13e352f3c67bfd484a1217964e5f2170e37aaf373e127ac92ca01c5deef07_prof);
+        $__internal_61abad4fbc14060da4cd75e8c706cc1a374840f9f5dd7b964ad62fd19b2a6086->leave($__internal_61abad4fbc14060da4cd75e8c706cc1a374840f9f5dd7b964ad62fd19b2a6086_prof);
 
     }
 
@@ -114,7 +126,7 @@ class __TwigTemplate_bb08cb4721406a93a60fcaa878277c7aaccd667ecdbfc538f6aeb75d69e
 
     public function getDebugInfo()
     {
-        return array (  94 => 28,  89 => 27,  80 => 26,  50 => 4,  41 => 3,  11 => 1,);
+        return array (  106 => 40,  101 => 39,  92 => 38,  50 => 4,  41 => 3,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -140,9 +152,21 @@ class __TwigTemplate_bb08cb4721406a93a60fcaa878277c7aaccd667ecdbfc538f6aeb75d69e
                            ng-repeat=\"(key, val) in products[0]\"
                            ng-bind=\"key\">
                         </th>
+                        <th>
+                            command
+                        </th>
                     </tr>
                 </thead>
                 <tbody>
+                    <tr>
+                        <td ng-repeat=\"(key, val) in products[0]\">
+                            <input ng-model=\"newProduct[key]\" type=\"text\" class=\"form-control\">
+                        </td>
+                        <td>
+                            <button class=\"btn btn-success\"
+                            ng-click=\"createProduct()\">New</button>
+                        </td>
+                    </tr>
                     <tr ng-repeat=\"product in products\">
                         <td ng-repeat=\"cell in product\" ng-bind=\"cell\"></td>
                     </tr>

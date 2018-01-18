@@ -131,6 +131,17 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
             }
             not_productsproduct_list:
 
+            // productsproduct_create
+            if ('/product/create' === $pathinfo) {
+                if ('POST' !== $canonicalMethod) {
+                    $allow[] = 'POST';
+                    goto not_productsproduct_create;
+                }
+
+                return array (  '_controller' => 'AppBundle\\Controller\\ProductController::createAction',  '_route' => 'productsproduct_create',);
+            }
+            not_productsproduct_create:
+
         }
 
         throw 0 < count($allow) ? new MethodNotAllowedException(array_unique($allow)) : new ResourceNotFoundException();

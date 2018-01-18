@@ -3,7 +3,7 @@
 //Névtér beállítása az Entity útvonalra:
 namespace AppBundle\Entity;
 
-//ORM osztály beemelése, állnévvel:
+//ORM osztály beemelése, állnévvel, az útvonalon az ORM nagybetűs legyen:
 use Doctrine\ORM\Mapping as ORM;
 
 //Adatbázis táblák neveinek definiálása annotációkkal, korábban a routing szabályokat és a
@@ -25,7 +25,7 @@ class Product
     // ezen a php file-on és fent van a GIT-en, akkor ezt a többiek letöltik és indítanak egy update-t.
     // Mindenkinek így ugyanaz az adatbázisa lesz.
 
-    //változók protected típusúak, kívülről nem elérhetőek. Ezért mindegyikhez kellkészítenünk
+    //változók protected típusúak, kívülről nem elérhetőek. Ezért, mindegyikhez kell készítenünk
     // Getter és Setter metódusokat:
 
     /**
@@ -52,7 +52,7 @@ class Product
     protected $manufacturer;
 
 
-    // Getter metódusok a mezőkhöz, ezek állítják be az értékeket. A neveknek meg kell
+    // Getter metódusok a mezőkhöz, ezek adják vissza az értékeket. A neveknek meg kell
     // egyezniük és CamelCase stílusúnak kell legyen pl.: getId .
     public function getId()
     {
@@ -75,7 +75,8 @@ class Product
     }
 
 
-    //Setter metódusok megadása a mezőkhöz, kivétel az "Id", mert az automatikusan generálódik.
+    //Setter metódusok (beállítják az attributumokat) megadása a mezőkhöz, kivétel
+    // az "Id", mert az automatikusan generálódik.
 
     public function setName($name)
     {

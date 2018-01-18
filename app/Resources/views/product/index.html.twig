@@ -11,9 +11,21 @@
                            ng-repeat="(key, val) in products[0]"
                            ng-bind="key">
                         </th>
+                        <th>
+                            command
+                        </th>
                     </tr>
                 </thead>
                 <tbody>
+                    <tr>
+                        <td ng-repeat="(key, val) in products[0]">
+                            <input ng-model="newProduct[key]" type="text" class="form-control">
+                        </td>
+                        <td>
+                            <button class="btn btn-success"
+                            ng-click="createProduct()">New</button>
+                        </td>
+                    </tr>
                     <tr ng-repeat="product in products">
                         <td ng-repeat="cell in product" ng-bind="cell"></td>
                     </tr>

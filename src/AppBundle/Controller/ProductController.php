@@ -8,6 +8,8 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 
+use AppBundle\Entity\Product;
+
 
 /**
  * @Route("/product", name="products")
@@ -44,6 +46,39 @@ class ProductController extends Controller
         );
 
         return new Response( json_encode($products) );
+    }
+
+    /**
+     * @Route("/create", name="product_create")
+     * @Method({"POST"});
+     */
+    public function createAction(Request $request)
+    {
+        //Az em  a Doctrine managere, ami kezeli az adatbázis, egy Manager osztály.
+        $em = $this->get('doctrine')->getManager();
+
+        //Kiveszem változóba a request adatokat és json decódolom(visszaalakítom json-ról):
+        $currentReq = $request->getContent();
+        $currentReq = json_decode($currentReq);
+
+        //Létrehozzuk a példányt és beállítjuk az attributumait a request értékeivel, amik
+        // most már objektumok és nem json.
+        $product = new Product();
+        $product->setName( $currentReq->name );
+        $product->setPrice( $currentReq->price );
+        $product->setManufacturer($currentReq->manufacturer );
+
+        //A Doctrine amikor indul, beolvassa a tábla tartalmát és ahhoz, hogy az adat
+        //azonnal bekerüljön az objektumba, a persist-et tudjuk használni.
+        $em->persist($product);
+
+        //Lefuttatja au update-t, azaz most az insertet hajtunk végre.
+        $em->flush();
+
+        //Visszaad egy tömböt json enkódolva:
+        return new Response( json_encode(
+            array('success' => true)
+        ) );
     }
 
 }
