@@ -120,27 +120,54 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
                 return array (  '_controller' => 'AppBundle\\Controller\\DefaultController::productsAction',  '_route' => 'products',);
             }
 
-            // productsproduct_list
+            // productproduct_home
+            if ('/product' === $trimmedPathinfo) {
+                if ('GET' !== $canonicalMethod) {
+                    $allow[] = 'GET';
+                    goto not_productproduct_home;
+                }
+
+                $ret = array (  '_controller' => 'AppBundle\\Controller\\ProductController::indexAction',  '_route' => 'productproduct_home',);
+                if (substr($pathinfo, -1) !== '/') {
+                    return array_replace($ret, $this->redirect($rawPathinfo.'/', 'productproduct_home'));
+                }
+
+                return $ret;
+            }
+            not_productproduct_home:
+
+            // productproduct_list
             if ('/product/list' === $pathinfo) {
                 if ('GET' !== $canonicalMethod) {
                     $allow[] = 'GET';
-                    goto not_productsproduct_list;
+                    goto not_productproduct_list;
                 }
 
-                return array (  '_controller' => 'AppBundle\\Controller\\ProductController::listAction',  '_route' => 'productsproduct_list',);
+                return array (  '_controller' => 'AppBundle\\Controller\\ProductController::listAction',  '_route' => 'productproduct_list',);
             }
-            not_productsproduct_list:
+            not_productproduct_list:
 
-            // productsproduct_create
+            // productproduct_create
             if ('/product/create' === $pathinfo) {
                 if ('POST' !== $canonicalMethod) {
                     $allow[] = 'POST';
-                    goto not_productsproduct_create;
+                    goto not_productproduct_create;
                 }
 
-                return array (  '_controller' => 'AppBundle\\Controller\\ProductController::createAction',  '_route' => 'productsproduct_create',);
+                return array (  '_controller' => 'AppBundle\\Controller\\ProductController::createAction',  '_route' => 'productproduct_create',);
             }
-            not_productsproduct_create:
+            not_productproduct_create:
+
+            // productproduct_update
+            if ('/product/update' === $pathinfo) {
+                if ('POST' !== $canonicalMethod) {
+                    $allow[] = 'POST';
+                    goto not_productproduct_update;
+                }
+
+                return array (  '_controller' => 'AppBundle\\Controller\\ProductController::updateAction',  '_route' => 'productproduct_update',);
+            }
+            not_productproduct_update:
 
         }
 

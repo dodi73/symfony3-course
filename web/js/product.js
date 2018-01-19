@@ -10,12 +10,13 @@ productApp.controller('productCtrl', ['$scope', '$http', function($scope, $http)
     // Ajax kérés és válasz kezelése (a válasz "data" mezője kell):
     $http.get('/product/list')
         .then(function(resp) {
-           console.log(resp);
+           console.log(resp.data);
            $scope.products = resp.data;
         });
 
     //Ajax kérés és válasz kezelése (a post-nál szoktunk küldeni adatot is, most
-    // csak egy üres objektumot: {} küldünk.)
+    // ez a $scope.newProduct
+    //A visszakapott érték a resp-be kerül, amit kiírunk a consolra.
     $scope.createProduct = function() {
         $http.post('/product/create', $scope.newProduct)
             .then(function(resp) {
@@ -23,7 +24,12 @@ productApp.controller('productCtrl', ['$scope', '$http', function($scope, $http)
             });
      };
 
-    //A POST függvény meghívása:
-    $scope.createProduct();
+    $scope.updateProduct = function(product) {
+        $http.post('/product/update', product)
+            .then(function(resp) {
+                console.log(resp);
+            });
+    };
+
 
 }]);

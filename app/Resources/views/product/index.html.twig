@@ -27,7 +27,13 @@
                         </td>
                     </tr>
                     <tr ng-repeat="product in products">
-                        <td ng-repeat="cell in product" ng-bind="cell"></td>
+                        <td ng-repeat="(key, val) in product">
+                            <input ng-model="product[key]" type="text" class="form-control">
+                        </td>
+                        <td>
+                            <button class="btn btn-info"
+                                    ng-click="updateProduct()">Update</button>
+                        </td>
                     </tr>
                 </tbody>
             </table>
